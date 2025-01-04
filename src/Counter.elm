@@ -3,8 +3,8 @@ module Counter exposing (main)
 -- Press buttons to increment and decrement a counter.
 
 import Browser
-import Html exposing (Html, button, div, text)
-import Html.Attributes exposing (class, style)
+import Html exposing (Html, a, button, div, text)
+import Html.Attributes exposing (class, href, style, target)
 import Html.Events exposing (onClick)
 
 
@@ -67,4 +67,5 @@ view model =
             , button [ class "bg-blue-9", onClick (Increment 1) ] [ text "+1" ]
             ]
         , button [ class "bg-blue-9", onClick (Decrement 10) ] [ text "-10" ]
+        , a [ href "https://github.com/bmehder/elm-counter/blob/main/src/Counter.elm", target "_blank" ] [ text "/src/Counter.elm on GitHub" ]
         ]
