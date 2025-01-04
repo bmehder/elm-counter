@@ -5240,7 +5240,7 @@ var $author$project$Counter$view = function (model) {
 		$elm$html$Html$div,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$class('counter grid gap-1')
+				$elm$html$Html$Attributes$class('counter grid gap-1 text-center')
 			]),
 		_List_fromArray(
 			[
@@ -5319,11 +5319,24 @@ var $author$project$Counter$view = function (model) {
 				_List_fromArray(
 					[
 						$elm$html$Html$Attributes$href('https://github.com/bmehder/elm-counter/blob/main/src/Counter.elm'),
-						$elm$html$Html$Attributes$target('_blank')
+						$elm$html$Html$Attributes$target('_blank'),
+						A2($elm$html$Html$Attributes$style, 'display', 'block')
 					]),
 				_List_fromArray(
 					[
-						$elm$html$Html$text('/src/Counter.elm on GitHub')
+						$elm$html$Html$text('/src/Counter.elm')
+					])),
+				A2(
+				$elm$html$Html$a,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$href('https://svelte.dev/playground/9a487f214b514968a556997f456e8b00?version=5.16.1'),
+						$elm$html$Html$Attributes$target('_blank'),
+						A2($elm$html$Html$Attributes$style, 'display', 'block')
+					]),
+				_List_fromArray(
+					[
+						$elm$html$Html$text('$lib/Counter.svelte')
 					]))
 			]));
 };
