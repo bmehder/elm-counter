@@ -5261,7 +5261,7 @@ var $author$project$Counter$view = function (model) {
 				_List_fromArray(
 					[
 						$elm$html$Html$Attributes$class('grid place-items-center gap-1'),
-						A2($elm$html$Html$Attributes$style, 'grid-template-columns', 'auto 4ch auto')
+						A2($elm$html$Html$Attributes$style, 'grid-template-columns', '1fr 4ch 1fr')
 					]),
 				_List_fromArray(
 					[

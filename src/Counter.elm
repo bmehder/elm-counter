@@ -61,7 +61,7 @@ view : Model -> Html Msg
 view model =
     div [ class "counter grid gap-1 text-center" ]
         [ button [ class "bg-blue-9", onClick (Increment 10) ] [ text "+10" ]
-        , div [ class "grid place-items-center gap-1", style "grid-template-columns" "auto 4ch auto" ]
+        , div [ class "grid place-items-center gap-1", style "grid-template-columns" "1fr 4ch 1fr" ]
             [ button [ class "bg-blue-9", onClick (Decrement 1) ] [ text "-1" ]
             , button [ class "bg-transparent pointer", onClick Reset ] [ text (String.fromInt model) ]
             , button [ class "bg-blue-9", onClick (Increment 1) ] [ text "+1" ]
