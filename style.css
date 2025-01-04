@@ -1,0 +1,12 @@
+@import url('https://bmehder.github.io/cheeky-css/cheeky.css');
+
+:root {
+	color-scheme: dark light;
+}
+
+/* Override component styles */
+/* .counter {
+	button {
+		background-color: blueviolet;
+	}
+} */

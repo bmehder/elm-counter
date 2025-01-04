@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Elm Optimized Script Test</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="counter.js"></script>
+		<script type="module">
+			const node = document.querySelector('[data-app]')
+			const app = Elm.Counter.init({ node })
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<main>
+				<section>
+					<div class="outer">
+						<div class="inner full-screen-center">
+							<div class="app" data-app></div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>
