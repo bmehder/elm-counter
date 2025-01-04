@@ -5319,8 +5319,7 @@ var $author$project$Counter$view = function (model) {
 				_List_fromArray(
 					[
 						$elm$html$Html$Attributes$href('https://github.com/bmehder/elm-counter/blob/main/src/Counter.elm'),
-						$elm$html$Html$Attributes$target('_blank'),
-						A2($elm$html$Html$Attributes$style, 'display', 'block')
+						$elm$html$Html$Attributes$target('_blank')
 					]),
 				_List_fromArray(
 					[
@@ -5331,8 +5330,7 @@ var $author$project$Counter$view = function (model) {
 				_List_fromArray(
 					[
 						$elm$html$Html$Attributes$href('https://svelte.dev/playground/9a487f214b514968a556997f456e8b00?version=5.16.1'),
-						$elm$html$Html$Attributes$target('_blank'),
-						A2($elm$html$Html$Attributes$style, 'display', 'block')
+						$elm$html$Html$Attributes$target('_blank')
 					]),
 				_List_fromArray(
 					[
